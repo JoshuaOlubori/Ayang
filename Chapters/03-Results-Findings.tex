@@ -2,60 +2,36 @@
 \label{cp:Results-and-Findings}
 
 {
-    \parindent0pt
+	\parindent0pt
+	This section presents the expected outcomes and performance metrics for Ayang, as sufficient data has not yet been generated.
 
+	\begin{description}
+		\item[AI Model Performance:]
 
-    As the current iteration of Ayang has not been able to generate enough data to provide an adequate assessment of its abilities, this section presents the expected outcomes and performance metrics we will use to evaluate its success upon deployment. The findings are projected based on initial testing with the base Gemini model and established research in the fields of gamification and environmental science.
+		      \begin{itemize}
+			      \item \textbf{Verification Accuracy:} We expect the base Gemini model to achieve over 95\% accuracy in verifying cleanups, as this is a change detection task that large vision models handle well. The target for the fine-tuned model is over 99\%.
 
-    \section{AI Model Performance}
-    The primary measure of the AI's success will be its accuracy in two key areas: waste verification and weight estimation.
+			      \item \textbf{Weight Estimation Accuracy:} This is more challenging. We project the base model's margin of error at $\pm$30--40\%. After fine-tuning with our custom dataset, we aim to reduce this error to under 15\%. This increased accuracy is critical for the system's fairness.
 
-    \begin{itemize}
-        \item \textbf{Verification Accuracy}: We anticipate that the base Gemini model will achieve a high accuracy (estimated >95\%) in verifying cleanups. The task of comparing a littered "before" image with a clean "after" image is a form of change detection that large vision models excel at.
+			      \item \textbf{Composition ID Accuracy:} We project an improvement from 85\% accuracy on broad categories with the base model to 95\% on specific local items with the fine-tuned model.
+		      \end{itemize}
 
-        \item   \textbf{Weight Estimation Accuracy}: This is a more challenging task. We project that the untuned Gemini model will have an average margin of error of +/- 30-40\% for weight estimation. However, after fine-tuning with our custom dataset of 5,000+ annotated images, we aim to reduce this margin of error to +/- 10-15\%. This increased accuracy is critical for the perceived fairness of the point system.
+		\item[User Engagement:] The platform's success depends on community motivation. Key performance indicators (KPIs) include:
 
-    \end{itemize}
+		      \begin{itemize}
+			      \item \textbf{User Growth:} Tracking monthly active users (MAU), with a target of 20\% month-over-month growth for the first six months.
 
+			      \item \textbf{Cleanup Frequency:} Our target is an average of two cleanups per active user per month.
 
-    \begin{table}[!htpb]
-        \caption{Projected AI Model Performance}
-        \label{tab:table-01}
-        \centering
-        \begin{tabular}{llc}
-            \toprule
-            \textbf{Metric}               & \textbf{Base Gemini Model (Projected)} & \textbf{Fine-Tuned Model (Target)} \\
-            \midrule
-            Cleanup Verification Accuracy & 96\%                                   & >99\%                              \\
-            Weight Estimation Mean Error  & 35\%                                   & <15\%                              \\
-            Composition ID Accuracy       & 85\% (broad categories)                & 95\% (specific local items)        \\
-            \bottomrule
-        \end{tabular}
-    \end{table}
+			      \item \textbf{Leaderboard Activity:} High engagement with leaderboards will validate our gamification strategy.
+		      \end{itemize}
 
-    \section{User Engagement and Gamification Impact}
-    The success of Ayang is fundamentally dependent on its ability to engage and motivate the community. We will measure this through several key performance indicators (KPIs):
+		\item[Environmental Impact:]
 
-    \begin{itemize}
-        \item \textbf{User Growth and Retention}: We will track the monthly active user (MAU) count and the user churn rate. A successful launch would see a 20\% month-over-month growth in MAUs for the first six months.
+		      \begin{itemize}
+			      \item \textbf{Total Waste Collected:} The platform will maintain a running total of the estimated weight of all collected trash. This will be a primary headline metric.
 
-        \item \textbf{Cleanup Frequency}: The average number of cleanups per user per month. Our target is an average of 2 cleanups per active user per month.
-
-        \item \textbf{Leaderboard Activity}: We will monitor how many users actively compete for top spots on the leaderboards. High engagement with this feature would validate our gamification strategy.
-
-    \end{itemize}
-
-    \section{Environmental Impact}
-
-    The ultimate goal of Ayang is to create a tangible positive impact on the environment. We will quantify this impact through:
-
-
-    \begin{itemize}
-        \item \textbf{Total Waste Collected}: The platform will maintain a running total of the estimated weight of all trash collected by users. This will be our primary headline metric (e.g., "1,000 kg of waste removed this month!").
-
-        \item \textbf{Waste Composition Data}: The AI's analysis will generate valuable data on the types of waste most prevalent in different areas. For instance, we might find that a particular neighborhood has a high concentration of plastic bottle waste. This data can be shared with municipal authorities or recycling companies to inform targeted interventions, such as the placement of plastic recycling bins.
-    \end{itemize}
-
-    Initial user feedback from a small-scale pilot study (N=20) is ongoing and expected to be positive, with users highlighting the motivating effect of the point system and the satisfaction of seeing their community's collective progress. We anticipate feedback will also guide future improvements, such as adding more social sharing features.
-
+			      \item \textbf{Waste Composition Data:} The AI's analysis will generate valuable data on waste types in different areas, which can be shared with municipal authorities to inform targeted interventions like the placement of recycling bins.
+		      \end{itemize}
+	\end{description}
 }

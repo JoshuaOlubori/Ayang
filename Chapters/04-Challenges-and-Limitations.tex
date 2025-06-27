@@ -1,56 +1,36 @@
 \chapter[Challenges and Limitations]{Challenges and Limitations}
-\label{cp:Challenges-and-Limitations}
+\label{cp:Challenges}
 
 {
-  \parindent0pt
+	\parindent0pt
+	While Ayang holds promise, we acknowledge several challenges that are crucial for our implementation strategy.
 
+	\begin{description}
+		\item[Technical Challenges:]
 
-  While Ayang holds promise, its development and deployment are not without challenges. Acknowledging these limitations is crucial for an effective implementation strategy.
+		      \begin{itemize}
+			      \item \textbf{Image Recognition Accuracy:} The model's accuracy is core to Ayang's integrity. Poor image quality could lead to errors. Our mitigation strategy is user education and aggressive model fine-tuning.
+			  
 
-  \section{Technical Challenges}
-  The primary measure of the AI's success will be its accuracy in two key areas: waste verification and weight estimation.
+			      \item \textbf{Malicious Use:} Users could attempt to cheat the system, for instance, by dumping their own trash to photograph. We plan countermeasures like GPS verification, time-stamping, and AI-powered anomaly detection to flag suspicious activity.
 
-  \begin{itemize}
-    \item \textbf{Image Recognition Accuracy}: The core of Ayang's integrity rests on the AI model's accuracy. Poor lighting, low-resolution images, or occluded trash items could lead to incorrect weight estimations or failed verifications. Our mitigation strategy is twofold: user education (prompting users to take clear photos) and aggressive model fine-tuning.
+			      \item \textbf{Scalability and Cost:} User growth will increase API and storage costs. We will optimize the application and seek grants or partnerships to cover operational expenses.
+		      \end{itemize}
 
-    \item  \textbf{Malicious Use and "Faking"}: Users could potentially try to cheat the system. For example, a user might dump their own trash just to take a photo of it. We plan to implement several countermeasures:
+		\item[Data and Ethical Challenges:]
 
-          \begin{itemize}
-            \item Location Verification: Ensuring the "before" and "after" photos are taken at the same location.
+		      \begin{itemize}
+			      \item \textbf{Dataset Bias:} Publicly available trash datasets may not represent waste found in African communities. A model trained on Western data may be less accurate locally. This is why creating a custom, localized dataset is a core part of our methodology.
 
-            \item Time Stamping: Checking that a reasonable amount of time has passed between the two photos.
+			      \item \textbf{Data Privacy:} The app collects location data, and we are committed to ethical handling. All user data will be anonymized for analysis, and our privacy policy will be transparent.
+		      \end{itemize}
 
-            \item AI Anomaly Detection: Training a separate, simpler model to flag suspicious activity patterns (e.g., a user who consistently cleans up the exact same weight of trash).
+		\item[Logistical and Community Challenges:]
 
+		      \begin{itemize}
+			      \item \textbf{The "Last Mile" Problem:} The app assists with collection but not final disposal. If no bins are nearby, trash may just be moved to another pile. We will partner with local governments or waste companies to schedule pickups at designated collection points.
 
-          \end{itemize}
-
-    \item \textbf{Scalability and Cost}: As the user base grows, the cost of API calls to the Gemini model and data storage will increase. Optimizing the application by caching results and compressing images will be essential. We will also explore grant opportunities and partnerships to cover operational costs.
-
-  \end{itemize}
-
-  \section{Data and Ethical Challenges}
-
-
-  \begin{itemize}
-    \item \textbf{Bias in Trash Datasets}: Publicly available datasets for trash may not accurately represent the types of waste found in our specific target communities in Africa. A model trained primarily on Western datasets might be less accurate at identifying local food packaging or other region-specific items. This is why creating our own custom, localized dataset for fine-tuning is a central part of our methodology.
-
-    \item \textbf{Data Privacy}: The app collects user location data. We are committed to ethical data handling. All user data will be anonymized before being used for analysis, and our privacy policy will be transparent about what data is collected and how it is used. We will adhere to responsible data use principles as advocated by the competition.
-
-
-  \end{itemize}
-
-
-
-    \section{Logistical and Community Challenges}
-
-\begin{itemize}
-    \item \textbf{The "Last Mile" Problem}: The app helps with trash collection, but it does not solve the problem of final disposal. If there are no municipal bins or collection points nearby, users may simply be moving trash from one public space to a pile in front of their home. To address this, we plan to use the data generated by the app to partner with local governments or private waste management companies to schedule pickups at designated community collection points.
-
-    \item \textbf{Digital Divide}: While mobile penetration is high, not everyone has a smartphone or affordable data. The app's reach may be limited to more affluent community members. To promote inclusivity, we plan to develop an offline-first functionality and explore community-based models where one person with a smartphone can document the work of a group.
-
-  \end{itemize}
-
-  Addressing these challenges will require a combination of technical refinement, strategic partnerships, and a deep understanding of the communities we aim to serve.
-  
+			      \item \textbf{Digital Divide:} Not everyone has a smartphone or affordable data, which may limit the app's reach. To promote inclusivity, we plan to explore offline functionality and community-based models where one person can document a group's work.
+		      \end{itemize}
+	\end{description}
 }
