@@ -1,0 +1,455 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{APHLIS}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5fd9f8b693f04606ebe54a600f27556e}{%
+           family={(APHLIS)},
+           familyi={(\bibinitperiod},
+           given={African\bibnamedelimb Postharvest\bibnamedelimb Losses\bibnamedelimb Information\bibnamedelima System},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5fd9f8b693f04606ebe54a600f27556e}
+      \strng{fullhash}{5fd9f8b693f04606ebe54a600f27556e}
+      \strng{fullhashraw}{5fd9f8b693f04606ebe54a600f27556e}
+      \strng{bibnamehash}{5fd9f8b693f04606ebe54a600f27556e}
+      \strng{authorbibnamehash}{5fd9f8b693f04606ebe54a600f27556e}
+      \strng{authornamehash}{5fd9f8b693f04606ebe54a600f27556e}
+      \strng{authorfullhash}{5fd9f8b693f04606ebe54a600f27556e}
+      \strng{authorfullhashraw}{5fd9f8b693f04606ebe54a600f27556e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 6 May 2025}
+      \field{title}{APHLIS Database: Postharvest loss estimates for Sub-Saharan Africa}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.aphlis.net
+      \endverb
+      \verb{url}
+      \verb https://www.aphlis.net
+      \endverb
+    \endentry
+    \entry{Abulude2024}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a319a5d05513960fe5cc22a773d349a2}{%
+           family={Abulude},
+           familyi={A\bibinitperiod},
+           given={Ifeoluwa},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca63b9b0013d35b542902e471d5f78f8}{%
+           family={Wahlen},
+           familyi={W\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{749408099c26555720cd805ac88fa9a6}
+      \strng{fullhash}{c59b2ca425ede15523337c299bc3fc7d}
+      \strng{fullhashraw}{c59b2ca425ede15523337c299bc3fc7d}
+      \strng{bibnamehash}{c59b2ca425ede15523337c299bc3fc7d}
+      \strng{authorbibnamehash}{c59b2ca425ede15523337c299bc3fc7d}
+      \strng{authornamehash}{749408099c26555720cd805ac88fa9a6}
+      \strng{authorfullhash}{c59b2ca425ede15523337c299bc3fc7d}
+      \strng{authorfullhashraw}{c59b2ca425ede15523337c299bc3fc7d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Available at SSRN}
+      \field{title}{Food Loss Analysis in Nigeria: A Systematic Literature Review}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://ssrn.com/abstract=4920743
+      \endverb
+      \verb{url}
+      \verb https://ssrn.com/abstract=4920743
+      \endverb
+    \endentry
+    \entry{Du2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=52e416de13ff8f6879966cf5f4c2897c}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Helen},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e791da3c43445c1dc83e277322130e4}{%
+           family={Ke},
+           familyi={K\bibinitperiod},
+           given={Xiaobo},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=524bcaa0129b312fcc1ac0c83f6cfd72}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{29c322c87da7b50fa8ed421397a7c4f4}
+      \strng{fullhash}{db1fdc1b52342f6650d563e009038cdf}
+      \strng{fullhashraw}{db1fdc1b52342f6650d563e009038cdf}
+      \strng{bibnamehash}{db1fdc1b52342f6650d563e009038cdf}
+      \strng{authorbibnamehash}{db1fdc1b52342f6650d563e009038cdf}
+      \strng{authornamehash}{29c322c87da7b50fa8ed421397a7c4f4}
+      \strng{authorfullhash}{db1fdc1b52342f6650d563e009038cdf}
+      \strng{authorfullhashraw}{db1fdc1b52342f6650d563e009038cdf}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial Management & Data Systems}
+      \field{month}{02}
+      \field{title}{Inducing individuals to engage in a gamified platform for environmental conservation}
+      \field{volume}{ahead-of-print}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1108/IMDS-09-2019-0517
+      \endverb
+    \endentry
+    \entry{FarmSupportSolutions2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cc1c0538ce91643d1e2baf7f58e62060}{%
+           family={{Farm Support Solutions (FSSS)}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc1c0538ce91643d1e2baf7f58e62060}
+      \strng{fullhash}{cc1c0538ce91643d1e2baf7f58e62060}
+      \strng{fullhashraw}{cc1c0538ce91643d1e2baf7f58e62060}
+      \strng{bibnamehash}{cc1c0538ce91643d1e2baf7f58e62060}
+      \strng{authorbibnamehash}{cc1c0538ce91643d1e2baf7f58e62060}
+      \strng{authornamehash}{cc1c0538ce91643d1e2baf7f58e62060}
+      \strng{authorfullhash}{cc1c0538ce91643d1e2baf7f58e62060}
+      \strng{authorfullhashraw}{cc1c0538ce91643d1e2baf7f58e62060}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{month}{2}
+      \field{title}{{Unlocking Market Access through Aggregation for Smallholders in Nigeria: 2024 Annual Impact Report}}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://fsssolutions.org/market-access/2024-report-unlocking-market-access-through-aggregation-for-smallholders-in-nigeria
+      \endverb
+      \verb{url}
+      \verb https://fsssolutions.org/market-access/2024-report-unlocking-market-access-through-aggregation-for-smallholders-in-nigeria
+      \endverb
+    \endentry
+    \entry{Ikegwuonu2018}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e2e95c61c83a323ada8e56b46cbdb1b3}{%
+           family={Ikegwuonu},
+           familyi={I\bibinitperiod},
+           given={Nnaemeka\bibnamedelima C.},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e2e95c61c83a323ada8e56b46cbdb1b3}
+      \strng{fullhash}{e2e95c61c83a323ada8e56b46cbdb1b3}
+      \strng{fullhashraw}{e2e95c61c83a323ada8e56b46cbdb1b3}
+      \strng{bibnamehash}{e2e95c61c83a323ada8e56b46cbdb1b3}
+      \strng{authorbibnamehash}{e2e95c61c83a323ada8e56b46cbdb1b3}
+      \strng{authornamehash}{e2e95c61c83a323ada8e56b46cbdb1b3}
+      \strng{authorfullhash}{e2e95c61c83a323ada8e56b46cbdb1b3}
+      \strng{authorfullhashraw}{e2e95c61c83a323ada8e56b46cbdb1b3}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{20}
+      \field{month}{11}
+      \field{title}{{ColdHubs: Addressing the crucial problem of food loss in Nigeria with solar-powered refrigeration}}
+      \field{type}{{IFPRI blog}}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ifpri.org/blog/coldhubs-addressing-crucial-problem-food-loss-nigeria-solar-powered-refrigeration
+      \endverb
+      \verb{url}
+      \verb https://www.ifpri.org/blog/coldhubs-addressing-crucial-problem-food-loss-nigeria-solar-powered-refrigeration
+      \endverb
+    \endentry
+    \entry{Kaza2018}{book}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=10160f41e48b7ecf7233cf4a7bc1b6cc}{%
+           family={Kaza},
+           familyi={K\bibinitperiod},
+           given={Silpa},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75438de7a8ef0fc9a8a0ada83c06d5da}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b53b61adfe1e09e19908b2ebf36df379}{%
+           family={Bhada-Tata},
+           familyi={B\bibinithyphendelim T\bibinitperiod},
+           given={Perinaz},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28a9a494133a7d3f36dcede2bee0baa7}{%
+           family={Van\bibnamedelima Woerden},
+           familyi={V\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Washington, DC}%
+      }
+      \list{publisher}{1}{%
+        {The World Bank}%
+      }
+      \strng{namehash}{b4b233a7f35d274f38b58b9a9c597237}
+      \strng{fullhash}{3ca4c6f57d75b88ca8a12de4e9c6faa8}
+      \strng{fullhashraw}{3ca4c6f57d75b88ca8a12de4e9c6faa8}
+      \strng{bibnamehash}{b4b233a7f35d274f38b58b9a9c597237}
+      \strng{authorbibnamehash}{b4b233a7f35d274f38b58b9a9c597237}
+      \strng{authornamehash}{b4b233a7f35d274f38b58b9a9c597237}
+      \strng{authorfullhash}{3ca4c6f57d75b88ca8a12de4e9c6faa8}
+      \strng{authorfullhashraw}{3ca4c6f57d75b88ca8a12de4e9c6faa8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What a Waste 2.0: A Global Snapshot of Solid Waste Management to 2050}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1596/978-1-4648-1329-0
+      \endverb
+      \verb{urlraw}
+      \verb https://openknowledge.worldbank.org/handle/10986/30317
+      \endverb
+      \verb{url}
+      \verb https://openknowledge.worldbank.org/handle/10986/30317
+      \endverb
+    \endentry
+    \entry{Ogundele2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7d6a1982019f6961784c861361b8ced6}{%
+           family={Ogundele},
+           familyi={O\bibinitperiod},
+           given={Femi},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7d6a1982019f6961784c861361b8ced6}
+      \strng{fullhash}{7d6a1982019f6961784c861361b8ced6}
+      \strng{fullhashraw}{7d6a1982019f6961784c861361b8ced6}
+      \strng{bibnamehash}{7d6a1982019f6961784c861361b8ced6}
+      \strng{authorbibnamehash}{7d6a1982019f6961784c861361b8ced6}
+      \strng{authornamehash}{7d6a1982019f6961784c861361b8ced6}
+      \strng{authorfullhash}{7d6a1982019f6961784c861361b8ced6}
+      \strng{authorfullhashraw}{7d6a1982019f6961784c861361b8ced6}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{African Journal of Agriculture and Food Science}}
+      \field{number}{3}
+      \field{title}{{Post Harvest Losses and Food Security in Nigeria: An Empirical Review}}
+      \field{volume}{5}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{77\bibrangedash 89}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.52589/AJAFSC0442Z7J
+      \endverb
+    \endentry
+    \entry{OTACCWA2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ac37a6b50173692be9c667ab9711bfc1}{%
+           family={{Organisation for Technology Advancement of Cold Chain in West Africa (OTACCWA)}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac37a6b50173692be9c667ab9711bfc1}
+      \strng{fullhash}{ac37a6b50173692be9c667ab9711bfc1}
+      \strng{fullhashraw}{ac37a6b50173692be9c667ab9711bfc1}
+      \strng{bibnamehash}{ac37a6b50173692be9c667ab9711bfc1}
+      \strng{authorbibnamehash}{ac37a6b50173692be9c667ab9711bfc1}
+      \strng{authornamehash}{ac37a6b50173692be9c667ab9711bfc1}
+      \strng{authorfullhash}{ac37a6b50173692be9c667ab9711bfc1}
+      \strng{authorfullhashraw}{ac37a6b50173692be9c667ab9711bfc1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{journaltitle}{{The Nation}}
+      \field{month}{2}
+      \field{title}{{Tackling Nigeria’s N3.5 trillion post-harvest losses}}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://thenationonlineng.net/tackling-nigerias-n3-5-trillion-post-harvest-losses
+      \endverb
+      \verb{url}
+      \verb https://thenationonlineng.net/tackling-nigerias-n3-5-trillion-post-harvest-losses
+      \endverb
+    \endentry
+    \entry{Tenebe2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4be9373c6dadd50623011b5f3858b9a1}{%
+           family={Tenebe},
+           familyi={T\bibinitperiod},
+           given={Diana},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4be9373c6dadd50623011b5f3858b9a1}
+      \strng{fullhash}{4be9373c6dadd50623011b5f3858b9a1}
+      \strng{fullhashraw}{4be9373c6dadd50623011b5f3858b9a1}
+      \strng{bibnamehash}{4be9373c6dadd50623011b5f3858b9a1}
+      \strng{authorbibnamehash}{4be9373c6dadd50623011b5f3858b9a1}
+      \strng{authornamehash}{4be9373c6dadd50623011b5f3858b9a1}
+      \strng{authorfullhash}{4be9373c6dadd50623011b5f3858b9a1}
+      \strng{authorfullhashraw}{4be9373c6dadd50623011b5f3858b9a1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Businessamlive}
+      \field{month}{5}
+      \field{title}{Smallholder farmers need digital marketplaces to curb post-harvest losses- Diana Tenebe, COO, Foodstuff Store}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.businessamlive.com/smallholder-farmers-need-digital-marketplaces-to-curb-post-harvest-losses-diana-tenebe-coo-foodstuff-store/
+      \endverb
+      \verb{url}
+      \verb https://www.businessamlive.com/smallholder-farmers-need-digital-marketplaces-to-curb-post-harvest-losses-diana-tenebe-coo-foodstuff-store/
+      \endverb
+    \endentry
+    \entry{PinnacleTimes2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1fd90623562a1c10af6e1fb4af123f9a}{%
+           family={{The Pinnacle Times}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{1fd90623562a1c10af6e1fb4af123f9a}
+      \strng{fullhash}{1fd90623562a1c10af6e1fb4af123f9a}
+      \strng{fullhashraw}{1fd90623562a1c10af6e1fb4af123f9a}
+      \strng{bibnamehash}{1fd90623562a1c10af6e1fb4af123f9a}
+      \strng{authorbibnamehash}{1fd90623562a1c10af6e1fb4af123f9a}
+      \strng{authornamehash}{1fd90623562a1c10af6e1fb4af123f9a}
+      \strng{authorfullhash}{1fd90623562a1c10af6e1fb4af123f9a}
+      \strng{authorfullhashraw}{1fd90623562a1c10af6e1fb4af123f9a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{month}{6}
+      \field{title}{{Boosting Food Production in Nigeria through Improved Rural Feeder Roads}}
+      \field{type}{Column}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://thepinnacletimes.com.ng/boosting-food-production-in-nigeria-through-improved-rural-feeder-roads/
+      \endverb
+      \verb{url}
+      \verb https://thepinnacletimes.com.ng/boosting-food-production-in-nigeria-through-improved-rural-feeder-roads/
+      \endverb
+    \endentry
+    \entry{VoiceofNigeria2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4b8f741d6b189d41d636ab0ac93594c2}{%
+           family={{Voice of Nigeria}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b8f741d6b189d41d636ab0ac93594c2}
+      \strng{fullhash}{4b8f741d6b189d41d636ab0ac93594c2}
+      \strng{fullhashraw}{4b8f741d6b189d41d636ab0ac93594c2}
+      \strng{bibnamehash}{4b8f741d6b189d41d636ab0ac93594c2}
+      \strng{authorbibnamehash}{4b8f741d6b189d41d636ab0ac93594c2}
+      \strng{authornamehash}{4b8f741d6b189d41d636ab0ac93594c2}
+      \strng{authorfullhash}{4b8f741d6b189d41d636ab0ac93594c2}
+      \strng{authorfullhashraw}{4b8f741d6b189d41d636ab0ac93594c2}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{month}{9}
+      \field{title}{{Rural access roads will reduce post-harvest losses – coordinator}}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://von.gov.ng/rural-access-roads-will-reduce-post-harvest-losses-coordinator
+      \endverb
+      \verb{url}
+      \verb https://von.gov.ng/rural-access-roads-will-reduce-post-harvest-losses-coordinator
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

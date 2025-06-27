@@ -1,0 +1,88 @@
+\chapter[Methodology]{Methodology}
+\label{cp:Methodology}
+
+{
+  \parindent0pt
+
+
+  Ayang is built on a scalable architecture that supports an engaging user experience. The project comprises three main components: the AI model for image analysis, the web application for user interaction, and the backend infrastructure for data management and processing.
+
+  \section{Software Architecture}
+
+  \begin{description}
+    \item[Frontend:] The user interface is dynamic and responsive, built with Next.js, which extends React. We use Next.js's App Router for a component-based structure, enabling server-side rendering (SSR) for fast initial page loads and excellent SEO performance. This ensures the application is accessible and performant even on low-bandwidth connections. The interactive map, which allows users to define their community's geographical area, is implemented using the \href{https://www.mapbox.com}{Mapbox} API.
+
+          \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.3]{Figures/frontend.png}
+            \caption{Landing page of Ayang}
+            \label{fig:figure-02}
+          \end{figure}
+
+    \item[Backend:]  We take advantage of the backend capabilities of Next.js. Core business logic is handled using Server Actions, which allow us to write secure backend code that runs on the server but can be called directly from our frontend components. These server-side functions manage user authentication, process image uploads, handle community group creation and management, and execute the calls to the external Google Gemini Vision API. This co-location of backend and frontend logic simplifies the architecture and accelerates development.
+
+    \item[Database:] For our data persistence layer, we use Neon, a serverless Postgres database platform. Neon's architecture separates storage and compute, offering features like auto-scaling and scaling-to-zero, which makes it highly cost-effective and scalable for a project with variable traffic. We use the robust, relational structure of Postgres to store user profiles, community information, cleanup event data (including image URLs, GPS locations, and timestamps), and user points in a secure and organized manner.
+
+          \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.07]{Figures/db_erd.png}
+            \caption{Database Entity-Relationship Diagram}
+            \label{fig:figure-03}
+          \end{figure}
+  \end{description}
+
+
+  \section{AI and Image Analysis Pipeline}
+  The core innovation of Ayang lies in its use of AI to automate the assessment and verification of cleanup activities. This process is handled by Google's Gemini Vision model.
+
+  \begin{enumerate}
+    \item \textbf{Initial Upload (Pre-Cleanup)}: A user initiates a cleanup by uploading a photo of a littered area. The image, along with its GPS metadata, is sent to the backend.
+
+    \item \textbf{Trash Estimation}: The backend forwards the image to the Gemini Vision API with a specific prompt engineered to perform two tasks:
+
+          \begin{itemize}
+            \item Identify the types of waste visible in the image (e.g., plastic bottles, food wrappers, paper, cans).
+            \item Estimate the total weight of the identified trash in kilograms.
+          \end{itemize}
+
+
+    \item \textbf{Cleanup Verification (Post-Cleanup)}: After cleaning the site, the user uploads a second photo. The backend sends both the "before" and "after" images to the Gemini model. A new prompt asks the model to perform a comparative analysis to verify that the trash from the initial image has been removed.
+
+    \item \textbf{Point Allocation}: If the model confirms a successful cleanup, the backend calculates the points to be awarded based on the estimated weight (e.g., 10 points per kilogram) and adds them to the user's account.
+  \end{enumerate}
+
+ \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.07]{Figures/system_sequence_1.png}
+            \caption{System Sequence Diagram of Ayang}
+            \label{fig:figure-04}
+          \end{figure}
+
+  \section{Model Fine-Tuning}
+  While the base Gemini model is highly capable, its accuracy for niche tasks like trash weight estimation can be significantly improved through fine-tuning. Our plan for improving the model involves creating a custom dataset of trash imagery relevant to our target communities.
+
+  \begin{itemize}
+    \item \textbf{Data Collection}: We will gather a diverse dataset of images of common waste items found in local contexts. Each image will be annotated with:
+          \begin{itemize}
+            \item A bounding box around each piece of trash.
+            \item The type of trash (e.g., PET bottle, nylon bag, aluminum can).
+            \item The actual weight of the item.
+          \end{itemize}
+
+    \item \textbf{Fine-Tuning Process}: Using Google's Vertex AI platform, we will use this labeled dataset to fine-tune the Gemini Vision model. This process adjusts the model's internal parameters to become more adept at recognizing specific local waste items and more accurately estimating their weight from an image alone. This addresses the challenge that a generic model may not be familiar with unique local forms of packaging or waste.
+  \end{itemize}
+
+
+  \section{Community Interaction Features}
+  The platform is designed to be social and community-driven.
+
+  \begin{itemize}
+    \item \textbf{Community Creation}: Users can define a new cleanup community by selecting a location on a map and setting a radius (e.g., 1 km). They can give their community a name and a description.
+    \item \textbf{Leaderboards}: To foster friendly competition, each community group will have a leaderboard displaying the top point-earners. A city-wide or even national leaderboard can further amplify the gamification element.
+    \item \textbf{Event Scheduling}: As an improvement on the current iteration of the app, community leaders would be able to schedule cleanup events, which will notify all members of the group.
+          
+  \end{itemize}
+
+   
+    This methodology ensures that Ayang is not just a data collection tool, but a platform for community mobilization and environmental action.
+}

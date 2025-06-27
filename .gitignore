@@ -1,0 +1,13 @@
+# ignore specific file types inside report folder
+*.xml
+*.out
+*.lot
+*.log
+*.lof
+*.ist
+*.glo
+*.blg
+*.bbl
+*.aux
+*.acn
+*.bcf
